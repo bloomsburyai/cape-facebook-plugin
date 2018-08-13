@@ -1,5 +1,5 @@
-from external_integration_facebook.facebook_settings import URL_BASE
-from external_integration_facebook.facebook_settings import facebook_auth_endpoints
+from cape_facebook_plugin.facebook_settings import URL_BASE
+from cape_facebook_plugin.facebook_settings import facebook_auth_endpoints
 from userdb.facebook_bot import FacebookBot
 from webservices.app.app_middleware import requires_auth
 from logging import debug

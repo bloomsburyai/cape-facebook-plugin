@@ -1,9 +1,9 @@
 import json
 from collections import deque
 from webservices.bots_common.utils import process_action, markdown_to_text, get_file_contents
-from external_integration_facebook.facebook_settings import URL_BASE, facebook_verification
-from external_integration_facebook.facebook_settings import facebook_event_endpoints
-from external_integration_facebook.facebook_utils import send_facebook_message, send_facebook_login_message
+from cape_facebook_plugin.facebook_settings import URL_BASE, facebook_verification
+from cape_facebook_plugin.facebook_settings import facebook_event_endpoints
+from cape_facebook_plugin.facebook_utils import send_facebook_message, send_facebook_login_message
 from userdb.facebook_bot import FacebookBot
 from userdb.user import User
 from webservices.app.app_middleware import respond_with_text
